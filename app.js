@@ -36,7 +36,7 @@ app.get("/", (req, res) => {
         }
 
         // Generate a simple HTML page to display the fetched data
-        let html = "<!DOCTYPE html><html><head><title>Test</title></head><body>";
+        let html = "<!DOCTYPE html><html><head><title>Node.js, Express, and MySQL Test Page</title></head><body>";
         html += "<h1>Node.js, Express, and MySQL Test Page</h1>";
         html += "<p>This page is designed to verify the connection to a MySQL database and display data.</p>";
         html += "<h2>Fetched Data:</h2><ul>";
