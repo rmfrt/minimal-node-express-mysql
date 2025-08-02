@@ -17,8 +17,8 @@ This is a minimal example application for testing the integration of Node.js, Ex
 1. Clone the repository:
 
    ```bash
-   git clone <REPOSITORY_URL>
-   cd <REPOSITORY_NAME>
+   git clone https://github.com/rmfrt/minimal-node-express-mysql
+   cd minimal-node-express-mysql
    ```
 
 2. Install dependencies:
