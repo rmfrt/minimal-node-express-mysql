@@ -1,0 +1,26 @@
+{
+    "name": "minimal-node-express-mysql",
+    "version": "1.0.0",
+    "description": "A minimal Node.js application using Express and MySQL for testing database connectivity.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "nodejs",
+        "express",
+        "mysql",
+        "docker"
+    ],
+    "author": "Rémi Forte <info@rmfrt.com>",
+    "license": "MIT",
+    "type": "commonjs",
+    "dependencies": {
+        "dotenv": "^17.2.1",
+        "express": "^5.1.0",
+        "mysql2": "^3.14.3"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
