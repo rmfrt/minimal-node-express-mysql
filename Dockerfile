@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install only production dependencies to reduce image size
-RUN npm install --production
+RUN npm install --omit=dev
 
 # Copy the rest of the application files to the working directory
 COPY . .
